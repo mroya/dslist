@@ -20,7 +20,8 @@ public class GameListController {
 	@Autowired
 	private GameListService gameListService;
 	
-	@Autowired GameService gameService;
+	@Autowired
+	private GameService gameService;
 	
 	@GetMapping
 	public List<GameListDTO> findAll(){
